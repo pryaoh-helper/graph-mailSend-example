@@ -11,7 +11,6 @@ const app = express();
 const request = require('request');
 const https = require('https');
 
-
 const tenantId = process.env.TENANT_ID || "e401ddf3-e2e4-4248-bcac-a5c248130505";
 const clientId = process.env.CLIENT_ID || "6d758728-607f-437c-99b4-4702a91a3bcd";
 const clientSecret = process.env.CLIENT_SECRET || "9.688H3_8h38Jwj5-p-.Cr1P_shWdo767l";
