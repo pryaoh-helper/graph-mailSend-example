@@ -14,9 +14,18 @@ cd graph-mailSend-example
 npm install
 npm run start
 ```
+이후 브라우저에서 http://localhost:8080 으로 실행하면 아래와 같은 화면을 확인가능합니다.
 
+![](/images/display1.png)
 
+로그인 한 후 관리자동의 창에서 동의함을 선택합니다.
+
+![](images/display2.png)
+
+메일 전송 테스트를 수행합니다.
+
+![](images/display3.png)
 
 ## 참고
-
-- [Microsoft OAUTH 2.0 클라이언트 자격 증명 흐름](https://docs.microsoft.com/ko-kr/azure/active-directory/develop/v2-oauth2-client-creds-grant-flow).
+- [Microsoft OAUTH 2.0 클라이언트 자격 증명 흐름](https://docs.microsoft.com/ko-kr/azure/active-directory/develop/v2-oauth2-client-creds-grant-flow)
+- [Send Mail Api Reference](https://docs.microsoft.com/en-us/graph/api/user-sendmail?view=graph-rest-1.0&tabs=http)
