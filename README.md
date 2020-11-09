@@ -1,7 +1,7 @@
-# MS Graph 메일 전송 예제  Mail Send (클라이언트 자격증명 흐름) in Node.js
-Azure Application 자격인증으로 MS Graph에 인증하여 다른 사람 메일로 메일 보내기 샘플입니다.
+# MS Graph 메일 전송 예제  (클라이언트 자격증명 흐름) 
+Azure AD 응용 프로그램 자격인증으로 MS Graph에 인증하여 다른 사람 메일로 메일 보내기 샘플입니다.
 
-이 예제는 최소 설정으로 실행할 수 있도록 사전에 이미 등록된  Azure AD 어플리케이션을 사용합니다.
+이 예제는 최소 설정으로 실행할 수 있도록 사전에 이미 등록된  Azure AD 응용프로그램을 사용합니다.
 
 ## 사전 준비 사항
 - [Azure AD 어플리케이션 등록 및 구성](/Resister_AzureAD.md)
