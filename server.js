@@ -146,5 +146,5 @@ function onPermissionCallback(res) {
 
  // listen
 app.listen(port, function () {
-    console.log("Graph-MailSend-Example started on port: " + port);
+    debug("Graph-MailSend-Example started on port: " + port);
  });
